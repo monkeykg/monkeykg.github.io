@@ -14,4 +14,4 @@ require(['jquery', "scrollReveal",'define'],function($){
         //alert('load finished');
 
     })
-})
+});
