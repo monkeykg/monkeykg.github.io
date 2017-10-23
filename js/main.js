@@ -4,14 +4,14 @@
 require.config({
     paths:{
         "jquery":["https://cdn.bootcss.com/jquery/2.1.0/jquery"],
-        "a":"a",
+        "define":"define",
         "scrollReveal":"scrollReveal"
     }
 
 });
-require(['jquery', "scrollReveal",'a'],function($){
+require(['jquery', "scrollReveal",'define'],function($){
     $(function(){
-        alert('load finished');
+        //alert('load finished');
 
     })
 })
