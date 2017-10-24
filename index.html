@@ -18,13 +18,17 @@
             var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
             var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
             if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
-                window.location.href="pc.html";
+                window.location.href="pc.html";/*是pc端的，跳转*/
             } else {
-                window.location.href="pc.html";
+                window.location.href="pc.html";/*是手机端的跳转*/
             }
         }
         browserRedirect();
+
+
+
     </script>
+
 </head>
 <body>
 
